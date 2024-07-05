@@ -1,0 +1,15 @@
+project_root/
+│
+├── main.py                  # Entry point of the application
+│
+├── handlers/                # Package for command handlers
+│   ├── __init__.py          # Initialize package
+│   └── command_handler.py   # Main command handler class
+│
+├── routers/                 # Package for routers
+│   ├── __init__.py          # Initialize package
+│   ├── order_router.py      # Router class for order commands
+│   ├── payment_router.py    # Router class for payment commands
+│   └── delivery_router.py   # Router class for delivery commands
+│
+└── app_plugin.py             # CLI entry class to handle input arguments
